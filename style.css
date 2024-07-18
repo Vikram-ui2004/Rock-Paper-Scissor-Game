@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url("https://img.glyphs.co/img?src=aHR0cHM6Ly9zMy5tZWRpYWxvb3QuY29tL3Jlc291cmNlcy9EYXJrLUNydW1wbGVkLVBhcGVyLVRleHR1cmVzLVByZXZpZXctMS5qcGc&q=70&enlarge=true&h=777&w=1200"); */
+    background-size: cover;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+
+}
+.outer{
+    margin-top: 8rem;
+}
+.head{
+    text-align: center;
+   
+    height: 60px;
+    display: grid;
+    place-items: center;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 4rem;
+    text-align: center;
+}
+.choice{
+    height: 100px;
+    width: 100px;
+}
+.choice p{
+    font-size:20px;
+    margin-top: 0.5rem;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   
+}
+.wincount{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    margin-top: 6rem;
+    gap:4rem;
+}
+.outerstate{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+
+   
+}
+.state{
+  
+    padding:  5px 15px ;
+    border-radius: 10px;
+    
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img:hover{
+    box-shadow: 0 0 10px rgb(243, 242, 242);
+}
